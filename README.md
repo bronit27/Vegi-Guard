@@ -1,6 +1,8 @@
 # Vegiguard
 Vegi Guard represents a powerful integration of Convolutional Neural Networks (CNN) and React, enabling the efficient categorization of potato plants into three critical groups: healthy, early blight, and late blight. This innovative solution streamlines plant health assessment, catering to the needs of farmers and plant enthusiasts, and contributes to more informed and timely decisions in agriculture.
 
+Though this can be used in any vegitable plant , i have trained the model using images of potato plant leaves.
+
 ## CNN
 CNN stands for Convolutional Neural Network, which is a type of artificial neural network designed specifically for processing grid-like data, such as images and videos. CNNs have become the cornerstone of many computer vision tasks, including image classification, object detection, and image segmentation.
 
