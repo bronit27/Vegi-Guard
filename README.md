@@ -1,4 +1,4 @@
-# Potato Disease Classification
+# Vegiguard
 
 ## Setup for Python:
 
@@ -29,25 +29,6 @@ npm audit fix
 
 5. Change API url in `.env`.
 
-## Setup for React-Native app
-
-1. Go to the [React Native environment setup](https://reactnative.dev/docs/environment-setup), then select `React Native CLI Quickstart` tab.  
-
-2. Install dependencies
-
-```bash
-cd mobile-app
-yarn install
-```
-
-  - 2.1 Only for mac users
-```bash
-cd ios && pod install && cd ../
-```
-
-3. Copy `.env.example` as `.env`.
-
-4. Change API url in `.env`.
 
 ## Training the Model
 
@@ -121,30 +102,6 @@ cd frontend
 ```bash
 npm run start
 ```
-
-## Running the app
-
-1. Get inside `mobile-app` folder
-
-```bash
-cd mobile-app
-```
-
-2. Copy the `.env.example` as `.env` and update `URL` to API URL if needed.
-
-3. Run the app (android/iOS)
-
-```bash
-npm run android
-```
-
-or
-
-```bash
-npm run ios
-```
-
-4. Creating public ([signed APK](https://reactnative.dev/docs/signed-apk-android))
 
 
 ## Creating the TF Lite Model
